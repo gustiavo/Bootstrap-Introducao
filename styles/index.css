@@ -1,0 +1,13 @@
+/* Important prioriza o elemento em si */
+/* versões antigas prioridade é de quem é declarado em baixo, ou por último */
+#page{
+    background-color: rgb(0, 0, 0) !important;
+}
+.carousel-caption{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    background-color: rgba(0, 0, 0, 0.63);
+    border-radius: 10px;
+}
+.container-fluid a{
+    color: white !important;
+}
