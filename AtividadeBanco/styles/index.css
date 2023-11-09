@@ -1,0 +1,63 @@
+:root{
+    --background-brown: #302727;
+    --background-red: #ba2d2d;
+    --background-dark-orange: #f2511b;
+    --background-orange: #f2871b42;
+    --background-yellow: #c7c730;
+}
+
+
+
+.nav-item a{
+    color: white;
+    height: 50px;
+}
+.nav-item a:hover{
+    color: rgb(196, 196, 196);
+
+}
+#conta-bancaria{
+    width: 90%;
+    padding: 0px 10px;
+}
+
+
+
+
+                    /* main */
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+#banner{
+    background-image: url(../images/banner.jpg);
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.banner{
+    width: 45%;
+    height: 40%;
+    background-color: var(--background-orange);
+    color: black;
+
+}
+
+
+#btn-conta{
+    color: white;
+}
+.card-img-top{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
