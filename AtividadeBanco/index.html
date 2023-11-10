@@ -114,14 +114,14 @@
         </section>
 
         
-        <section class="my-5">
-            <div class="container-fluid p-0  mx-0 d-flex" style="background-color: var(--background-brown);">
+        <section id="contrate"class="my-5">
+            <div class="container-fluid py-4  mx-0 d-flex" style="background-color: var(--background-brown);">
                 <div class="contrate" style="color:white;" >
                     <h3 class="mx-5 my-2" >Contrate nossos serviços</h3>
                     <p class="m-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem magni suscipit odit illo soluta, sint minus ducimus mollitia. Dolore officiis ducimus possimus aperiam vel neque architecto ipsum provident, commodi explicabo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti nisi architecto soluta numquam est dolorem distinctio ab labore quis a recusandae, quibusdam modi, dolor ducimus quo cumque! Perferendis, quibusdam! Eaque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium pariatur eum recusandae fuga atque iusto, et reiciendis, tenetur quaerat accusamus quo quasi sit temporibus, repellendus magni quos corporis! Ea, dignissimos.</p>
                 </div>
                 <div class="img d-flex justify-content-end">
-                    <img src="images/bannerBeneficios.jpg" class="w-50" alt="">
+                    <img src="images/bannerBeneficios.jpg"  id="img-contrate"class="w-50" alt="">
                 </div>
             </div>
         </section>
@@ -129,29 +129,73 @@
             <h2 class="my-4 text-center" style="font-weight: bold;">SEJA CLIENTE DE TODAS AS MANEIRAS</h2>
             <div id="sejaCliente" class="container-fluid d-flex justify-content-center  gap-4 text-center">
                                         <!-- BOLETO -->
-                <div class="p-0 w-25 h-0" style=" border-radius: 0;">
+                <div class="p-0 w-25 h-0" id="cartoes" style=" border-radius: 0;">
                     <img src="images/cartaoUm.jpg" class="card-img-top" style="border-radius: 0;" alt="Cartão 1">
                     
                 </div>
-                <div class="p-0 w-25 h-0" style=" border-radius: 0;">
+                <div class="p-0 w-25 h-0" id="cartoes" style=" border-radius: 0;">
                     <img src="images/cartaoDois.jpg" class="card-img-top" id="cartao2" style="border-radius: 0;" alt="Cartão 2">
                     
                 </div>
-                <div class="p-0 w-25 h-0" style=" border-radius: 0;">
+                <div class="p-0 w-25 h-0" id="cartoes" style=" border-radius: 0;">
                     <img src="images/cartaoTres.jpg" class="card-img-top" style="border-radius: 0;" alt="Cartão 3">
                     
                 </div>
             </div>    
             
         </section>
-        <section>
-          
+
+
+        <section id="container-section" class=" d-flex justify-content-center">
+          <div id="container-tabela">
+            <h2 class="text-center">Horarios de Atendimento</h2>
+            <table class="table table-striped text-white">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col" class="text-white text-center" style="background-color: var(--background-red);">Segunda</th>
+                  <th scope="col" class="text-white text-center" style="background-color: var(--background-red);">Terça</th>
+                  <th scope="col" class="text-white text-center" style="background-color: var(--background-red);">Quarta</th>
+                  <th scope="col" class="text-white text-center" style="background-color: var(--background-red);">Quinta</th>
+                  <th scope="col" class="text-white text-center" style="background-color: var(--background-red);">Sexta</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row" class="text-white text-center px-4" style="background-color: var(--background-red);">Marcelo</th>
+                  <td class="text-center px-4">08:00 até <br>13:00</td>
+                  <td class="text-center px-4">08:00 até <br>12:00</td>
+                  <td class="text-center px-4">09:00 até as <br> 14:00</td>
+                  <td class="text-center px-4">09:00 até as <br>12:00</td>
+                  <td class="text-center px-4">09:00 até as <br> 12:00</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-white text-center px-4" style="background-color: var(--background-red);" >Daniela</th>
+                  <td class="text-center px-4">08:00 até <br>13:00</td>
+                  <td class="text-center px-4">08:00 até <br>12:00</td>
+                  <td class="text-center px-4">09:00 até as <br> 14:00</td>
+                  <td class="text-center px-4">09:00 até as <br>12:00</td>
+                  <td class="text-center px-4">09:00 até as <br> 12:00</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-white text-center px-4" style="background-color: var(--background-red);" >João</th>
+                  <td class="text-center px-4">08:00 até <br>13:00</td>
+                  <td class="text-center px-4">08:00 até <br>12:00</td>
+                  <td class="text-center px-4">09:00 até as <br> 14:00</td>
+                  <td class="text-center px-4">09:00 até as <br>12:00</td>
+                  <td class="text-center px-4">09:00 até as <br> 12:00</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </section>
 
 
     </main>
 
-    <footer></footer>
+    <footer id="style-footer">
+      <p>Todos os direitos reservado a Bank 90</p>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
