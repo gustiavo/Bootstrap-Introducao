@@ -7,7 +7,7 @@
     --branco: #FFFFFF;
 }
 body{
-    background-color: black;
+   
 }
 header,footer{
     background-color: var(--azul);
@@ -33,4 +33,23 @@ header,footer{
 form{
     width: 70%;
     height: 100%;
+}
+aside{
+    width: 50%;
+    height: auto;
+}
+input{
+    border: 1px solid black !important;
+}
+#temaAtualEscuro{
+    display: none;
+}
+
+@media screen and (max-width:1050px){
+    #formularioGrupo{
+        flex-direction: column;
+    }
+    #formularioGrupo aside{
+        width: 100%;
+    }
 }
