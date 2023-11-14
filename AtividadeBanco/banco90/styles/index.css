@@ -1,0 +1,47 @@
+:root{
+    --marrom: #302727;
+    --vermelho: #ba2d2d;
+    --laranja-escuro: #f2511b;
+    --laranja: #f2861b;
+    --laranja-transparent: #f2871b9f;
+    --amarelo: #c7c730;
+    --branco: #ffffff;
+    --preto: #000000;
+}
+
+header{
+    background-color: var(--vermelho);
+}
+.nav-link{
+    color: var(--branco) !important;
+}
+
+header button{
+    border-radius: 5px !important;
+}
+/* bannerSection */
+#bannerImg{
+    width: 100%;
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../../images/banner.jpg);
+}
+#bannerTexto{
+    background-color: var(--laranja-transparent);
+}
+#bannerTexto button{
+    background-color: var(--marrom);
+    border: 2px solid var(--laranja-escuro);
+    color: var(--branco);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+
+@media screen and (max-width: 768px){
+    #bannerImg{
+        height: 30rem;
+    }
+    
+}
